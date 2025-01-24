@@ -39,7 +39,7 @@ namespace seneca {
            return true;
        }
        else {
-           std::cout << "Only enter values between " << min << " and " << max << ", inclusive:\n ";
+           std::cout << "\n>";
            return false;
        }
    }

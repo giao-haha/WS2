@@ -38,10 +38,6 @@ namespace seneca {
        if (num >= min && num <= max) {
            return true;
        }
-       else {
-           std::cout << "\n>";
-           return false;
-       }
    }
   
 }

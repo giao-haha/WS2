@@ -38,6 +38,7 @@ namespace seneca {
        if (num >= min && num <= max) {
            return true;
        }
+      return false;
    }
   
 }

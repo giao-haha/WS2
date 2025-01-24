@@ -28,7 +28,7 @@ namespace seneca {
        while (true) {
            number = getInt();
            if (number >= min && number <= max) break;
-           std::cout << "Invalid value, [" << min << "<=ENTRY<=" << max << "]: ";
+           std::cout << "Invalid value, [" << min << "<=ENTRY<=" << max << "]\n> ";
        }
        return number;
    }

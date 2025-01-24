@@ -5,7 +5,7 @@ namespace seneca {
 
 	void reverse() {
 		int count;
-		std::cout << "Enter the number of double value: ";
+		std::cout << "Enter the number of double values: ";
 		std::cin >> count;
 
 		double* arr = new double[count];

@@ -18,7 +18,7 @@ namespace seneca {
 			std::cout << arr[i] << std::endl;
 		}
 
-		//delete[] arr;
+		delete[] arr;
 	}
 
     Contact* getContact() {
